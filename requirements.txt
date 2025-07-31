@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-dotenv
+pdfplumber
+python-docx
+sentence-transformers
+pinecone
+ollama # If you plan to use Ollama for local LLMs
+requests # For fetching URLs, used in document_reader.py
+beautifulsoup4 # For robust HTML parsing
+html2text # For converting HTML to readable text
